@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="weather-app" id="weather-app">
+        <div class="div">
+            <h1>Get weather update</h1>
+            <p>Check your city weather update</p>
+        </div>
+
+        <form class="weather-form" id="weather-form">
+            <div class="input-group" id="input-group">
+                <label for="city">Enter your city</label>
+                <input type="text" name="city" id="city" class="city-input" placeholder="Enter city">
+                <p class="error-display" id="error-display">Please enter a city</p>
+            </div>        
+
+            <button type="submit" id="get-weather" class="get-weather">Get Weather</button>
+        </form>
+
+        <div class="card" id="data-card">
+            <label class="label">Your city’s weather temperature</label>
+
+            <!-- <div class="weather-data">
+                <div class="city-and-temp">
+                    <p class="city-display">Lagos</p>
+                    <div class="display-temp">
+                        <h2 class="temp-display">90</h2>
+                        <h2 class="temp-display-c">°C</h2>
+                    </div>
+                </div>
+    
+                <div class="hum-and-display-container">
+                    <p class="humidity-display">Humidity: 75%</p>
+                    <div class="icon-and-display-wrapper">
+                        <p class="weather-emoji">☀️</p>
+                        <p class="desc-display">Clear Skies</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
