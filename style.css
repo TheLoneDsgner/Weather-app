@@ -26,6 +26,28 @@ body{
     padding: 1.5rem;
 }
 
+.title-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title-container h1{
+    width: fit-content;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+}
+.title-container p{
+    width: fit-content;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 20%);
+}
+
 .weather-form{
     width: 100%;
     height: auto;
@@ -164,4 +186,64 @@ body{
     padding: 0.25rem 0.5rem;
     border-radius: 0.35rem;
     margin-top: 0.75rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .weather-app{
+        width: 32%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1.5rem;
+        border-radius: 1.25rem;
+        background: linear-gradient(180deg, hsl(194, 78%, 76%), hsl(232, 100%, 86%));
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .weather-app{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1.5rem;
+        border-radius: 1.25rem;
+        background: linear-gradient(180deg, hsl(194, 78%, 76%), hsl(232, 100%, 86%));
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .weather-app{
+        width: 46%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1.5rem;
+        border-radius: 1.25rem;
+        background: linear-gradient(180deg, hsl(194, 78%, 76%), hsl(232, 100%, 86%));
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .weather-app{
+        width: 86%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1.5rem;
+        border-radius: 1.25rem;
+        background: linear-gradient(180deg, hsl(194, 78%, 76%), hsl(232, 100%, 86%));
+        padding: 1.5rem;
+    }
 }
